@@ -1,0 +1,44 @@
+.container{
+    box-sizing: border-box;
+    height: 300px;
+}
+.tf {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 0;
+    background-color: green;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid;
+    align-items: stretch;
+    margin: 5px 0;
+}
+.leftBlock {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin-right: 5px;
+}
+.rightBlock {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right {
+    border: 1px solid;
+    display: flex;
+    background-color: yellow;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.top {
+    margin: 0 0 5px 0;
+}

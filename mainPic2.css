@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+.topHeader {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 5px;
+}
+.topHeader>div {
+    display: flex;
+    background-color: yellow;
+    border: 1px solid;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+    margin: 5px 0;
+}
+.mainContent {
+    display: flex;
+    height: 200px;
+}
+.mainContent>div {
+    background-color: blue;
+    margin: 5px;
+}
+.main {
+    display: flex;
+    width: 80%;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+}
+.aside {
+    display: flex;
+    width: 20%;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+}
+.bottomContent {
+    display: flex;
+    background-color: orangered;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid;
+}

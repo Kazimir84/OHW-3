@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 100px;
+    margin: 5px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.blockB {
+    width: 70%;
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.blockC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    width: 30%;
+    margin: 0 5px 0 0;
+}
